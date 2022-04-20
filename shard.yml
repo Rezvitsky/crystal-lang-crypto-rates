@@ -1,0 +1,17 @@
+name: crystal-lang-crypto-rates
+version: 0.1.0
+
+authors:
+  - Leonid Rezvitsky <rezvitsky@swert.ru>
+
+targets:
+  crystal-lang-crypto-rates:
+    main: src/crystal-lang-crypto-rates.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  
+crystal: 1.4.0
+
+license: MIT
